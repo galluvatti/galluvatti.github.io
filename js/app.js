@@ -16,7 +16,7 @@ var Enemy = function(x, y, speed) {
 // Parameter: dt, a time delta between ticks
 Enemy.prototype.update = function(dt) {
   // Speed is used so that every enemy has a random speed.
-  this.x = this.x + this.speed * 50 * dt;
+  this.x = this.x + this.speed * 35 * dt;
   //If the enemy goes offScreen, then it returns to the startPoint
   if(this.x > this.offScreenX) {
     this.x = this.startingX;
