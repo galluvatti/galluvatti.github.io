@@ -1,6 +1,22 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game
+Demo at https://galluvatti.github.io
+## Table of Contents
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+* [Instructions](#Instructions)
+* [Game logic](#logic)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Instructions
+
+In order to run the game you can:
+* Git clone the Project
+* Open index.html in your favorite browser
+* Enjoy!
+
+## Game logic
+
+Goal of the game is to reach the water. You can move the player up, down, left
+or right. You can use only the arrow keys on your keyboard.
+Some enemies appears on the game board. You should avoid it. If you collide with
+an enemy, the player is reset and you should start from the beginning.
+If you reach the water, the game starts again.
+Enjoy!
